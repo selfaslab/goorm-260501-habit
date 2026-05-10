@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# habit-rpg
 
-## Getting Started
+Next.js로 만든 습관 체크 앱입니다. 오늘 할 일·연속 기록·월별 히트맵 등을 브라우저에서 바로 씁니다.
 
-First, run the development server:
+## 필요한 것
+
+- [Node.js](https://nodejs.org/) (LTS 권장)
+
+## 실행 방법
+
+저장소를 받은 뒤 프로젝트 폴더에서:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 [http://localhost:3000](http://localhost:3000) 을 엽니다. (이미 3000번 포트를 쓰는 프로그램이 있으면 Next가 다른 포트를 안내합니다.)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 그밖에 스크립트
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| 명령 | 설명 |
+|------|------|
+| `npm run build` | 프로덕션 빌드 |
+| `npm run start` | 빌드 결과 실행 |
+| `npm run lint` | ESLint 검사 |
 
-## Learn More
+## 저장소
 
-To learn more about Next.js, take a look at the following resources:
+- GitHub: [selfaslab/goorm-260501-habit](https://github.com/selfaslab/goorm-260501-habit)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js에 대한 자세한 내용은 [공식 문서](https://nextjs.org/docs)를 참고하세요.
