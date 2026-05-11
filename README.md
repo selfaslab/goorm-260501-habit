@@ -1,6 +1,7 @@
 # Habit RPG (습관 추적기)
-
 브라우저에서 쓰는 **습관 체크·통계 앱**입니다. Next.js로 만들었고, 데이터는 기본적으로 이 기기의 **브라우저 저장소(localStorage)** 에 남습니다.
+
+<img width="792" height="733" alt="habit1" src="https://github.com/user-attachments/assets/5c446277-5edb-4963-89b3-eeeaca4e11d5" />
 
 ## 어떤 앱인가요?
 
@@ -23,6 +24,8 @@ npm run dev
 
 3. 브라우저에서 **http://localhost:3000** 을 엽니다.  
    3000번 포트가 이미 쓰이면 터미널에 나온 주소(예: 3001)를 사용하세요.
+   
+<img width="760" height="862" alt="habit2" src="https://github.com/user-attachments/assets/b06bc704-868d-4088-af36-924a12b4ced0" />
 
 ## 사용 방법 (앱 안에서)
 
